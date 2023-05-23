@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+body {
+  font-family: "Shadows Into Light", cursive;
+}
+.contenaire {
+  background-color: #29347b;
+  border: 1px solid black;
+
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+h1,
+p {
+  color: aliceblue;
+  text-align: center;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
