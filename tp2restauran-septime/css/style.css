@@ -1,32 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,700");
+body {
+  background-color: rgb(37, 26, 26);
+  height: 100%;
+  font-family: "cormorant garamond";
+}
 .container {
   width: 1024px;
   margin: auto;
+  background-color: aliceblue;
+  height: 100%;
+}
+header h1 {
+  border-bottom-style: ridge;
+  font-size: large;
+  margin-left: 1px;
+  width: 40%;
 }
 
+.div1 h1 {
+  border-bottom-style: ridge;
+  border-top-style: ridge;
+
+  margin: auto;
+}
+h2 {
+  color: red;
+}
+div p {
+  text-align: justify;
+  margin: 10px;
+}
+div h4,
+h3 {
+  margin: 50px;
+  padding: 0;
+}
+h4 {
+  color: white;
+  text-align: left;
+  width: 40%;
+  background-color: black;
+  /* background-color: black; */
+  /* border-top-style: ridge ; */
+}
 ul,
 section,
 nav {
   display: flex;
   list-style-type: none;
   justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0%;
 }
 
-footer {
-  margin: auto;
-  justify-content: center;
+ul {
+  padding: 0;
+  margin: 0;
 }
-img {
-  width: 300px;
-}
-.div2 {
-  display: flex;
-  justify-content: space-around;
-}
+
 .div1 {
   text-align: center;
   /* display: flex;
  flex-direction: column; */
+  margin: px;
+  padding: 015px;
+  margin-inline: 0;
 }
-ul {
+section h3 {
+  border-bottom-style: ridge;
+  text-align: left;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15px;
+}
+.div2 img {
+  border-radius: 50%;
+}
+.div3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.div5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div6 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div p {
+  border-bottom-style: ridge;
+}
+footer {
+  text-align: center;
+
+  padding: 40px;
+  margin: auto;
+}
+
+footer p {
+  text-align: center;
+}
+footer h1 {
+  border-bottom-style: ridge;
+  border-top-style: ridge;
+  width: 50%;
+  margin: auto;
+}
+footer h1,
+p,
+div {
+  margin: 5;
   padding: 0;
 }
