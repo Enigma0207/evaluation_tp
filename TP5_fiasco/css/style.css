@@ -1,128 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 * {
-    box-sizing: border-box;
-  }
-  html,
-  body,
-  div,
-  span,
-  applet,
-  object,
-  iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  blockquote,
-  pre,
-  a,
-  abbr,
-  acronym,
-  address,
-  big,
-  cite,
-  code,
-  del,
-  dfn,
-  em,
-  img,
-  ins,
-  kbd,
-  q,
-  s,
-  samp,
-  small,
-  strike,
-  strong,
-  sub,
-  sup,
-  tt,
-  var,
-  b,
-  u,
-  i,
-  center,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  tr,
-  th,
-  td,
-  article,
-  aside,
-  canvas,
-  details,
-  embed,
-  figure,
-  figcaption,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  output,
-  ruby,
-  section,
-  summary,
-  time,
-  mark,
-  audio,
-  video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-  }
-  .container{
-    width: 80%;
-    background-color: black;
-    height: 100%;
-    margin: auto;
-    color: azure;
-  }
-  /* hdr1 */
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.container {
+  width: 1440px;
+  background-color: black;
+  height: 100%;
+  margin: auto;
+  color: azure;
+}
+h2 {
+  color: rgb(214, 211, 28);
+}
 
-  .hdrflex1{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 20px;
-  }
-  /* ulflex1 */
-  .ulfex1{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-  }
-  /* li a */
-  .ulfex1 li>a{
-    text-decoration: none;
-    padding: 20px;
-    color: white;
-  }
-  {
-    ,nnlnnnklnknnlknlknknbjkbvhv
-  }
+/* header */
+header {
+  background-image: url(../img/eggs.jpg);
+  height: 500px;
+}
 
+header h2,
+h1,
+h6 {
+  text-align: center;
+  margin-top: 50px;
+}
 
- 
- 
-  
+/* hdr1 */
 
-  
- 
+.hdrflex1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  position: relative;
+}
+
+/* ulflex1 */
+.ulfex1 {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+/* li a */
+.ulfex1 li > a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+/* main */
+
+/* .sec1e1flex */
+.sec1flex1 {
+  border: 1px solid rgb(219, 168, 1);
+  padding: 30px 0 0 20px;
+  margin-top: -15px;
+}
+
+.sec1e2flex {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+/* .sec1e2flex2 */
+
+.sec1e2flex2 {
+  margin-top: 10%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+/* .sec2e2flex */
+.sec2e2flex {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+/* .sec2e2flex2 */
+.sec2e2flex2 {
+  margin-top: 10%;
+  margin-right: 5%;
+}
+.sec2e2flex2 h4,
+h2 {
+  margin: 7% 0;
+}
+.sec2flex2 {
+  border: 1px solid rgb(219, 168, 1);
+  padding: 30px 20px 0 0;
+}
+
+/* sec3 */
+.sec3 {
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+}
+.sec3 p {
+  width: 50%;
+  margin: auto;
+}
+.sec3 h2 {
+  margin: 25px;
+}
+/* sec3 ul */
+
+.sec3list {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+.sec3list li {
+  margin: 30px;
+  list-style-type: none;
+}
+
+/* sec4 */
+.sec4 {
+  width: 70%;
+  margin: auto;
+}
+/* sec4a */
+.sec4a {
+  display: flex;
+  margin-bottom: 10%;
+}
+.sec4a1 {
+  display: flex;
+  margin-right: 5%;
+}
+.sec4a1img {
+  margin-right: 8%;
+}
+.sec4a2 {
+  display: flex;
+}
+.sec4a2img {
+  margin-left: 8%;
+}
+/* sec4b */
+.sec4b {
+  display: flex;
+}
+
+.sec4b1 {
+  display: flex;
+}
+.sec4b1img {
+  margin-right: 8%;
+}
+.sec4b2 {
+  display: flex;
+  margin-left: 5%;
+}
+.sec4b2img {
+  margin-left: 8%;
+}
+
+/* sec5 */
+.sec5 {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 8%;
+}
+.sec5img {
+  margin-left: 8%;
+}
+/* sec6 */
+
+.sec6div {
+  width: 95%;
+  margin: auto;
+  background-image: url(../img/reservation.jpg);
+  text-align: center;
+  padding: 5%;
+}
+.sec6div p,
+h2 {
+  margin: 20px;
+}
+.reservation {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  /* margin-right: 10px; */
+}
+.full {
+  width: 30%;
+  padding: 8px;
+  border: solid 1px rgb(212, 212, 162);
+  border-radius: 10px 10px;
+  margin: 5px;
+}
+.reserv {
+  width: 20%;
+  padding: 2px;
+  border: solid 1px rgb(212, 212, 162);
+  border-radius: 10px 10px;
+  margin: 2px;
+  margin: auto;
+  margin-top: 10px;
+}
+/*  */
+.sec7a {
+  width: 60%;
+  margin: auto;
+  padding-top: 3%;
+  text-align: right;
+}
+.sec7a p,
+h4 {
+  margin: 15px;
+}
+/* iframe */
+.iframe {
+  width: 100%;
+}
+/* footer */
+footer {
+  display: flex;
+
+  padding: 20px;
+}
+.ftr1 {
+  width: 33%;
+  margin: 0 20px 0 30px;
+  padding-left: 50px;
+}
+.ftr2 {
+  width: 33%;
+  padding-left: 50px;
+
+  margin: 0 30px 0 20px;
+}
+.ftr3 {
+  width: 33%;
+  margin: 0 20px 0 20px;
+  padding-left: 30px;
+}
