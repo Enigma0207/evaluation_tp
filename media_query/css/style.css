@@ -1,0 +1,33 @@
+.container {
+  margin: auto;
+  width: 1400px;
+  background-color: rgb(117, 154, 186);
+}
+img {
+  width: 100%;
+}
+section img {
+  width: 100%;
+  height: 300px;
+}
+
+header img {
+  width: 100%;
+}
+.section {
+  display: flex;
+}
+.sectionimg1 {
+  width: 25%;
+}
+.sectionimg2 {
+  width: 25%;
+}
+.sectionimg3 {
+  width: 25%;
+}
+.sectionimg4 {
+  width: 25%;
+}
+@media (max-width: 960px) {
+}

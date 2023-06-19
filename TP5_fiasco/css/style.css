@@ -97,8 +97,11 @@ video {
   margin: auto;
   color: azure;
 }
-h2 {
+header h2,
+h4 {
   color: rgb(214, 211, 28);
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
 }
 
 /* header */
@@ -129,17 +132,39 @@ h6 {
   justify-content: space-between;
   list-style-type: none;
 }
-
+.hdrflex1 p {
+  font-size: x-small;
+}
+header h1 {
+  font-size: 30px;
+  font-size: bold;
+}
 /* li a */
 .ulfex1 li > a {
   text-decoration: none;
   padding: 20px;
   color: white;
+  padding: 5px;
 }
+.bor {
+  border: 1px solid yellow;
+}
+.ulfex1 li > a:hover {
+  color: aquamarine;
+  border: 1px solid yellow;
+}
+
+/* .ulfex1 ul>li:hover{
+
+} */
 
 /* main */
 
 /* .sec1e1flex */
+section h4,
+h2 {
+  margin: 3px;
+}
 .sec1flex1 {
   border: 1px solid rgb(219, 168, 1);
   padding: 30px 0 0 20px;
@@ -174,11 +199,14 @@ h6 {
 }
 .sec2e2flex2 h4,
 h2 {
-  margin: 7% 0;
+  margin: 7%;
 }
 .sec2flex2 {
   border: 1px solid rgb(219, 168, 1);
   padding: 30px 20px 0 0;
+}
+.sec2flex2 img {
+  display: block;
 }
 
 /* sec3 */
@@ -192,7 +220,7 @@ h2 {
   margin: auto;
 }
 .sec3 h2 {
-  margin: 25px;
+  margin: 7px;
 }
 /* sec3 ul */
 
@@ -269,7 +297,7 @@ h2 {
 }
 .sec6div p,
 h2 {
-  margin: 20px;
+  margin: 7px;
 }
 .reservation {
   display: flex;
@@ -305,13 +333,17 @@ h4 {
   margin: 15px;
 }
 /* iframe */
+.iframe1 {
+  margin: auto;
+  margin: 0 10px;
+}
 .iframe {
   width: 100%;
 }
 /* footer */
 footer {
   display: flex;
-
+  background-color: gray;
   padding: 20px;
 }
 .ftr1 {
@@ -329,4 +361,9 @@ footer {
   width: 33%;
   margin: 0 20px 0 20px;
   padding-left: 30px;
+  flex: shrink;
+}
+footer h4 {
+  color: yellow;
+  font-family: serif;
 }
