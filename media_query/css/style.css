@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "dancing";
+  src: url(../font/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
 .container {
   margin: auto;
   width: 1400px;
@@ -17,8 +21,20 @@ section img {
   display: flex;
   flex-wrap: wrap;
 }
-
+.hdrimg2 {
+  display: none;
+}
+.hdrimg {
+  display: inline;
+}
 @media (max-width: 1440px) {
+  .hdrimg2 {
+    display: inline;
+  }
+  .hdrimg {
+    display: none;
+  }
+
   .container {
     width: 100%;
     background-color: rgb(16, 9, 99);
@@ -101,6 +117,11 @@ header p {
 }
 .figcaption p,
 h3,
-h4 {
-  margin: 10px;
+h4,
+h5 {
+  margin: 3px;
+  font-family: "dancing";
+}
+.bgcolor {
+  color: rgb(243, 243, 25);
 }
